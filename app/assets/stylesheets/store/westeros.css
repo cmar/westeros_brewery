@@ -263,7 +263,22 @@ ul#products li a:hover span {
   text-shadow: 0px 1px 0px #ffffff;
   filter: dropshadow(color=white, offx=0, offy=1); }
 
-#product-description .color-dan {
+#product-description .daenerys-fire-breath {
+  color: #c8271f; }
+
+#product-description .pyke-pilsner {
+  color: #c8271f; }
+
+#product-description .tyrions-short-stout {
+  color: #c8271f; }
+
+#product-description .stark-winter-lager {
+  color: #c8271f; }
+
+#product-description .gregor-cleganes-finest {
+  color: #c8271f; }
+
+#product-description .westeros-sampler {
   color: #c8271f; }
 
 .order-info {

@@ -12,3 +12,5 @@
  *= require_self
  *= require_tree .
 */
+
+nav #main-nav-bar li a:hover { color: white !imporant; }
