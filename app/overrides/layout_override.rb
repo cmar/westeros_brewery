@@ -8,10 +8,10 @@ Deface::Override.new :virtual_path => "spree/layouts/spree_application",
 
   <nav class="columns alpha omega sixteen">
     <ul id="main-nav-bar" class="inline clearfix" data-hook>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li class="right"><a href="/account">Account</a></li>
-      <li class="right"><a href="/cart">Cart</a></li>
+      <li><a href="/" class="nav-item">Home</a></li>
+      <li><a href="/about" class="nav-item">About</a></li>
+      <li class="right"><a href="/account" class="nav-item">Account</a></li>
+      <li class="right"><a href="/cart" class="nav-item">Cart</a></li>
     </ul>
   </nav>
 }
