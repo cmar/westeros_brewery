@@ -5,8 +5,9 @@
 
       <div id="product-images" data-hook="product_images">
         <div id="main-image" data-hook>
-          <%= render :partial => 'image' %>
+          <%= image_tag @product.images.first.attachment.url(:original), :itemprop => "image" %>
         </div>
+
         <div id="thumbnails" data-hook>
           <%= render :partial => 'thumbnails', :locals => { :product => @product } %>
         </div>
