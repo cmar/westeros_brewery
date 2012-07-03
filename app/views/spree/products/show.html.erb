@@ -27,10 +27,13 @@
         <h1 class="product-title <%= @product.permalink %>" itemprop="name"><%= accurate_title %></h1>
 
         <h2 class="product-sub-title" itemprop="name">
-          <%= product_description(@product) rescue t(:product_has_no_description) %>
+          <%= @product.description %>
         </h2>
         <div itemprop="description" data-hook="description">
-          <%= product_description(@product) rescue t(:product_has_no_description) %>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+          vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
         </div>
 
         <div id="cart-form" data-hook="cart_form">

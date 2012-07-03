@@ -9,8 +9,9 @@ This was built for a tutorial in the July 2012 issue of .Net Magazine.
 
 ```shell
 $ git clone https://github.com/cmar/westeros_brewery.git
+$ cd westeros_brewery
 $ bundle install
-$ rails server
+$ bundle exec rails server
 ```
 Open http://localhost:3000
 
