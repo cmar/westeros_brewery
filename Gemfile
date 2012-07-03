@@ -52,5 +52,5 @@ gem 'spree_skrill'
 
 gem 'spree_pinterest', :git => 'https://github.com/genuitytech/spree_pinterest.git',
                        :tag => 'v0.2.1'
-gem 'spree_static_content', :git => 'git@github.com:spree/spree_static_content.git',
+gem 'spree_static_content', :git => 'https://github.com/spree/spree_static_content.git',
                             :branch => '1-0-stable'
