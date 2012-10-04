@@ -298,9 +298,12 @@ ul#products li a:hover span {
   width: 200px; }
 
 .pin-it-button {
-  padding: 0 30px;
-  font-size: 14px;
-  display:none; }
+  padding: 25px;
+  background: url('/assets/pin.png') 0 0 no-repeat;
+  text-indent: -9999px;
+  font-size: 0;
+  color: transparent;
+}
 
 #product-images #main-image {
   background-color: transparent;
@@ -411,6 +414,6 @@ ul#products li a:hover span {
 }
 
 /* let's clear some floats */
-.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
-.clearfix:after { clear: both; }  
-.clearfix { zoom: 1; }  
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
